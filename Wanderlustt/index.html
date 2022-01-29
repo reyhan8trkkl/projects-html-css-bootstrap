@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Wanderlust</title>
+    <link rel="stylesheet" type="text/css" href="./reset.css" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Work+Sans"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="./logo.jpg" alt="logo" />
+      <h1>Where do you want to land?</h1>
+    </header>
+    <main>
+      <form autocomplete="off">
+        <input type="text" id="city" />
+        <button id="button" type="button">Submit</button>
+      </form>
+    </main>
+    <div class="container">
+      <div id="destination"></div>
+      <div class="sectiontitle">
+        <h2>WEATHER</h2>
+      </div>
+      <section id="weather">
+        <div class="weather" id="weather1"></div>
+      </section>
+      <div class="sectiontitle">
+        <h2>SPORTS NEWS</h2>
+      </div>
+      <section id="sports" class="row">
+        
+      </section>
+      <div class="sectiontitle">
+        <h2>TOP ATTRACTIONS</h2>
+      </div>
+      <section id="venues"></section>
+    </div>
+
+    <footer></footer>
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <script src="./helpers.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
